@@ -1,0 +1,18 @@
+{
+    "welcome": "Bienvenue sur notre application",
+    "tradingpPanel": {
+      "platform": "Plateforme",
+      "tradingPair": "Paire de trading",
+      "initialBalance": "Balance initiale (USDT)",
+      "leverage": "Levier (x)",
+      "side": "Direction du trade",
+      "type": "Type de trade",
+      "amount": "Montant investi (USDT)",
+      "takeProfit": "Take Profit (TP)",
+      "stopLoss": "Stop Loss (SL)"
+    },
+    "buttons": {
+      "submit": "Soumettre",
+      "cancel": "Annuler"
+    }
+}
