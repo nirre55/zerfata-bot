@@ -3,13 +3,23 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import des fichiers de traduction
-import translationEN from './locales/en/translation.json';
-import translationFR from './locales/fr/translation.json';
+import commonEN from './locales/en/common.json';
+import commonFR from './locales/fr/common.json';
+
+import tradingPanelEn from './locales/en/tradingPanel.json';
+import tradingPanelFR from './locales/fr/tradingPanel.json';
 
 // Configuration des ressources de traduction
 const resources = {
-  en: { translation: translationEN },
-  fr: { translation: translationFR },
+  en: { 
+    common: commonEN,
+    tradingPanel: tradingPanelEn,
+  },
+  fr: 
+  { 
+    common: commonFR,
+    tradingPanel: tradingPanelFR,
+  },
 };
 
 i18n

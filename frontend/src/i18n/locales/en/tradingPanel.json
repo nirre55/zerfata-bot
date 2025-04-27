@@ -1,6 +1,5 @@
 {
-  "welcome": "Welcome to our application",
-  "tradingpPanel": {
+    "title": "Trading Panel",
     "platform": "Platform",
     "tradingPair": "Trading Pair",
     "initialBalance": "Initial Balance (USDT)",
@@ -10,9 +9,4 @@
     "amount": "Invested Amount (USDT)",
     "takeProfit": "Take Profit (TP)",
     "stopLoss": "Stop Loss (SL)"
-  },
-  "buttons": {
-    "submit": "Submit",
-    "cancel": "Cancel"
-  }
 }
