@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SelectField } from "../components";
+import { SelectField, PositiveNumberField } from "../components";
 import { useTradingPanelTranslations } from "../i18n/hooks";
 import { tradingOptions } from "../constants/tradingOptions";
 
@@ -56,6 +56,14 @@ const TradingPanel: React.FC = () => {
           options={tradingOptions.types}
           required={true}
           className="w-full rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 text-gray-700"
+        />
+
+        <PositiveNumberField
+          id="trading-montant-input"
+          label={tTradingPanel.priceEntry()}
+          required
+          placeholder="Ex: 123.45"
+          className="col-span-2"
         />
       </div>
     </div>

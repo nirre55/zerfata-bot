@@ -1,12 +1,13 @@
 {
-    "title": "Panneau de trading",
-    "platform": "Plateforme",
-    "tradingPair": "Paire de trading",
-    "initialBalance": "Balance initiale (USDT)",
-    "leverage": "Levier (x)",
-    "side": "Direction du trade",
-    "type": "Type de trade",
-    "amount": "Montant investi (USDT)",
-    "takeProfit": "Take Profit (TP)",
-    "stopLoss": "Stop Loss (SL)"
+  "title": "Panneau de trading",
+  "platform": "Plateforme",
+  "tradingPair": "Paire de trading",
+  "initialBalance": "Balance initiale (USDT)",
+  "leverage": "Levier (x)",
+  "side": "Direction du trade",
+  "type": "Type de trade",
+  "amount": "Montant investi (USDT)",
+  "takeProfit": "Take Profit (TP)",
+  "stopLoss": "Stop Loss (SL)",
+  "priceEntry": "Prix d'entrée"
 }

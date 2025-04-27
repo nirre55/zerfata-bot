@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export interface TradingPanelTranslations {
   title: () => string;
@@ -11,20 +11,22 @@ export interface TradingPanelTranslations {
   amount: () => string;
   takeProfit: () => string;
   stopLoss: () => string;
+  priceEntry: () => string;
 }
 
 export const useTradingPanelTranslations = (): TradingPanelTranslations => {
-  const { t } = useTranslation('tradingPanel');
+  const { t } = useTranslation("tradingPanel");
   return {
-    title: () => t('title'),
-    platform: () => t('platform'),
-    tradingPair: () => t('tradingPair'),
-    initialBalance: () => t('initialBalance'),
-    leverage: () => t('leverage'),
-    side: () => t('side'),
-    type: () => t('type'),
-    amount: () => t('amount'),
-    takeProfit: () => t('takeProfit'),
-    stopLoss: () => t('stopLoss'),
+    title: () => t("title"),
+    platform: () => t("platform"),
+    tradingPair: () => t("tradingPair"),
+    initialBalance: () => t("initialBalance"),
+    leverage: () => t("leverage"),
+    side: () => t("side"),
+    type: () => t("type"),
+    amount: () => t("amount"),
+    takeProfit: () => t("takeProfit"),
+    stopLoss: () => t("stopLoss"),
+    priceEntry: () => t("priceEntry"),
   };
 };
